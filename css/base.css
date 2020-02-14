@@ -1,0 +1,88 @@
+
+html{
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body{
+	margin: 0;
+	background-color: rgb(238,238,238);
+	font-size: 1.2rem;
+	color: #333;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+
+}
+
+h1{
+	font-size: 2em;
+	margin: 0.67em 0;
+
+}
+
+hr{
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+a{
+	background-color: transparent;
+}
+
+b,
+strong{
+	font-weight: bolder;
+}
+
+#tribute-info li{
+	margin: 10px 0;
+	text-align: justify;
+}
+
+.blockquote{
+	
+	display:flex;
+	flex-direction: column;
+	justify-content:  flex-end;
+	align-items: flex-end;
+	text-align: justify;
+	font-style: italic;
+}
+
+.blockquote-sign{
+
+	
+}
+
+/* Forms
+	==================================*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+input {
+	overflow: visible;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+
+
+/* useful classes */
+.text-center{
+	text-align: center;
+}
