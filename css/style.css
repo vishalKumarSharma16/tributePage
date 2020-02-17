@@ -1,8 +1,10 @@
 #main{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
 	margin: 0 auto;
+	
 }
 
 #img-div{
@@ -15,10 +17,7 @@
 }
 
 #image{
-	
-	max-width: 1024px;
-	/*border-radius: 21px;*/
-	max-height: 623px;
+	width: 90vw;	
 	display: block;
 	margin: 0 auto;
 }
@@ -36,5 +35,10 @@
 
 	#tribute-info li{
 		padding: 10px
+	}
+	
+	#image{
+		width: 100%;
+		height: auto;
 	}
 }
